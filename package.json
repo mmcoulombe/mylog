@@ -1,0 +1,29 @@
+{
+  "name": "my-log",
+  "version": "0.1.0",
+  "description": "MySQL powered remote logging server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmcoulombe/mylog.git"
+  },
+  "keywords": [
+    "mysql",
+    "server",
+    "logging"
+  ],
+  "author": "Maxime Millette-Coulombe <mmillettecoulombe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmcoulombe/mylog/issues"
+  },
+  "homepage": "https://github.com/mmcoulombe/mylog#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  }
+}
